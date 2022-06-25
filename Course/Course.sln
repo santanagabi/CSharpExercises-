@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscopoInicialização", "Es
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncoesSintaxe", "FuncoesSintaxe\FuncoesSintaxe.csproj", "{46D48A86-F9ED-4078-8296-131FF5313809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitivaWhile", "RepetitivaWhile\RepetitivaWhile.csproj", "{D77C6CEB-1A22-47AB-8082-AFCFE927813C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepetitivaWhile", "RepetitivaWhile\RepetitivaWhile.csproj", "{D77C6CEB-1A22-47AB-8082-AFCFE927813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaFor", "EstruturaFor\EstruturaFor.csproj", "{95F94746-52E5-44FF-8761-21B84D0E4C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D77C6CEB-1A22-47AB-8082-AFCFE927813C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77C6CEB-1A22-47AB-8082-AFCFE927813C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77C6CEB-1A22-47AB-8082-AFCFE927813C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
