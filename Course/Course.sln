@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncoesSintaxe", "FuncoesSi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepetitivaWhile", "RepetitivaWhile\RepetitivaWhile.csproj", "{D77C6CEB-1A22-47AB-8082-AFCFE927813C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaFor", "EstruturaFor\EstruturaFor.csproj", "{95F94746-52E5-44FF-8761-21B84D0E4C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaFor", "EstruturaFor\EstruturaFor.csproj", "{95F94746-52E5-44FF-8761-21B84D0E4C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoClasses", "CriandoClasses\CriandoClasses.csproj", "{546F5A4E-51A3-4DA9-8952-F82072179FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F94746-52E5-44FF-8761-21B84D0E4C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546F5A4E-51A3-4DA9-8952-F82072179FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546F5A4E-51A3-4DA9-8952-F82072179FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546F5A4E-51A3-4DA9-8952-F82072179FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546F5A4E-51A3-4DA9-8952-F82072179FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
