@@ -15,15 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetor2", "Vetor2\Vetor2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExsVetor", "ExsVetor\ExsVetor.csproj", "{B645185D-7A9A-444C-BCC5-106FD6CB119C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorParametros", "ModificadorParametros\ModificadorParametros.csproj", "{E80E010F-BFFA-41B3-9D20-B8CC1520749C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModificadorParametros", "ModificadorParametros\ModificadorParametros.csproj", "{E80E010F-BFFA-41B3-9D20-B8CC1520749C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach", "Foreach\Foreach.csproj", "{363C3470-0DDD-458D-A7A3-5D52685E99F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "Foreach\Foreach.csproj", "{363C3470-0DDD-458D-A7A3-5D52685E99F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas1", "Listas1\Listas1.csproj", "{A21243D3-79CE-46C2-A306-9A7E1563606D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas1", "Listas1\Listas1.csproj", "{A21243D3-79CE-46C2-A306-9A7E1563606D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista2", "Lista2\Lista2.csproj", "{DF79E2BD-333E-44F3-B1BB-976F5B70A5BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista2", "Lista2\Lista2.csproj", "{DF79E2BD-333E-44F3-B1BB-976F5B70A5BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExsLista", "ExsLista\ExsLista.csproj", "{DBE781DD-EF2F-4C20-982C-F980FDFFE018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExsLista", "ExsLista\ExsLista.csproj", "{DBE781DD-EF2F-4C20-982C-F980FDFFE018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{CC81771D-5196-46F6-8F3C-429C595B0A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExsMatriz", "ExsMatriz\ExsMatriz.csproj", "{75179C0C-7AA3-4E7D-BF22-EE183A1DABC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{DBE781DD-EF2F-4C20-982C-F980FDFFE018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE781DD-EF2F-4C20-982C-F980FDFFE018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE781DD-EF2F-4C20-982C-F980FDFFE018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC81771D-5196-46F6-8F3C-429C595B0A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC81771D-5196-46F6-8F3C-429C595B0A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC81771D-5196-46F6-8F3C-429C595B0A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC81771D-5196-46F6-8F3C-429C595B0A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75179C0C-7AA3-4E7D-BF22-EE183A1DABC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75179C0C-7AA3-4E7D-BF22-EE183A1DABC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75179C0C-7AA3-4E7D-BF22-EE183A1DABC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75179C0C-7AA3-4E7D-BF22-EE183A1DABC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
