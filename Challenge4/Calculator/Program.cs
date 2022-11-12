@@ -19,7 +19,9 @@ namespace Calculator // Note: actual namespace depends on the project name.
       Console.WriteLine("3 - Divisão");
       Console.WriteLine("4 - Multiplicação");
 
-      Console.WriteLine("");
+      Console.WriteLine("-----------------------");
+      Console.WriteLine("Selecione uma opção: ");
+      short res = short.Parse(Console.ReadLine());
     }
 
     static void Soma()
