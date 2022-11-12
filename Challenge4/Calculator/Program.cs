@@ -6,6 +6,11 @@ namespace Calculator // Note: actual namespace depends on the project name.
   {
     static void Main(string[] args)
     {
+      Soma();
+    }
+
+    static void Soma()
+    {
       Console.Clear();
       Console.WriteLine("Primeiro valor: ");
       float v1 = float.Parse(Console.ReadLine());
@@ -19,7 +24,5 @@ namespace Calculator // Note: actual namespace depends on the project name.
       Console.WriteLine($"O resultado da soma é {resultado}");
       Console.WriteLine($"O resultado da soma é {v1 + v2}");
     }
-
-    static
   }
 }
