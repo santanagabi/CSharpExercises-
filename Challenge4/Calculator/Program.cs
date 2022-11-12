@@ -21,7 +21,17 @@ namespace Calculator // Note: actual namespace depends on the project name.
 
       Console.WriteLine("-----------------------");
       Console.WriteLine("Selecione uma opção: ");
+
       short res = short.Parse(Console.ReadLine());
+
+      switch (res)
+      {
+        case 1: Soma(); break;
+        case 2: Subtracao(); break;
+        case 3: Divisao(); break;
+        case 4: Multiplicacao(); break;
+        default: Menu(); break;
+      }
     }
 
     static void Soma()
