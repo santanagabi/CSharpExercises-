@@ -6,7 +6,7 @@ namespace Calculator // Note: actual namespace depends on the project name.
   {
     static void Main(string[] args)
     {
-      Divisao();
+      Multiplicacao();
     }
 
     static void Soma()
