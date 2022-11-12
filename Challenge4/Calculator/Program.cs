@@ -20,9 +20,9 @@ namespace Calculator // Note: actual namespace depends on the project name.
       Console.WriteLine("");
 
       float resultado = v1 + v2;
-      Console.WriteLine(" O resultado da soma é: " + resultado);
+      // Console.WriteLine(" O resultado da soma é: " + resultado);
       Console.WriteLine($"O resultado da soma é {resultado}");
-      Console.WriteLine($"O resultado da soma é {v1 + v2}");
+      // Console.WriteLine($"O resultado da soma é {v1 + v2}");
     }
   }
 }
