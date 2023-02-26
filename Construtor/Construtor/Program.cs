@@ -7,16 +7,31 @@ namespace Construtor
     {
         static void Main(string[] args)
         {
+            Produto p = new Produto("TV", 500.00, 10);
 
+            // Get e Set => para classes encapsuladas
+            p.SetNome("A"); // Set = altera
+            Console.WriteLine(p.GetNome());  // Get = pega   
+
+            Console.WriteLine(p.GetPreco());           
+
+            /*
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
             string nome = Console.ReadLine();
             Console.Write("Preço: ");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Quantidade no estoque: ");
-            int quantidade = int.Parse(Console.ReadLine());
 
-            Produto p = new Produto(nome, preco, quantidade);
+            // Construtor padrão
+            Produto p2 = new Produto();
+
+            // Outro modo de instanciar => Funciona mesmo sem construtores
+            Produto p3 = new Produto
+            {
+                Nome = "TV",
+                Preco = 500.00,
+                Quantidade = 20
+            };
 
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
@@ -33,7 +48,7 @@ namespace Construtor
             p.RemoverProdutos(qte);
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + p);
-
+            */
         }
     }
 }
