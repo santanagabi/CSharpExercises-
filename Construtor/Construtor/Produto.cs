@@ -22,25 +22,25 @@ namespace Construtor
             _quantidade = quantidade;
         }
 
-        // Get e Set
-        public string GetNome()
+        // Propeties / Propiedades
+        public string Nome
         {
-            return _nome;
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1) { _nome = value; }
+                // value = o valor que chega ao set
+            }
         }
 
-        public void SetNome(string nome)
+        public double Preco
         {
-            if (nome != null && nome.Length > 1) { _nome = nome; }
+            get { return _preco; }
         }
 
-        public double GetPreco()
+        public int Quantidade
         {
-            return _preco;
-        }
-
-        public int GetQuantidade()
-        {
-            return _quantidade;
+            get { return _quantidade; }
         }
 
         /* Método */

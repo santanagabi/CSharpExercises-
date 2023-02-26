@@ -9,11 +9,18 @@ namespace Construtor
         {
             Produto p = new Produto("TV", 500.00, 10);
 
+            p.Nome = "T";
+
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+
+            /*
             // Get e Set => para classes encapsuladas
             p.SetNome("A"); // Set = altera
             Console.WriteLine(p.GetNome());  // Get = pega   
 
-            Console.WriteLine(p.GetPreco());           
+            Console.WriteLine(p.GetPreco());      
+            */
 
             /*
             Console.WriteLine("Entre os dados do produto:");
