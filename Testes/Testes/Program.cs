@@ -8,14 +8,40 @@ namespace Testes
     {
         static void Main(string[] args)
         {
-            // Matriz = bidimensional
-            double[,] mat = new double[2, 3]; // matriz 2 linhas e 3 colunas
+            // ordem n = n linhas e n colunas
+            int n = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(mat.Length);
-            Console.WriteLine(mat.Rank); // linhas = 2
-            Console.WriteLine(mat.GetLength(0));
-            Console.WriteLine(mat.GetLength(1));
+            int[,] mat = new int[n, n];
 
+            for (int i = 0; i < n; i++) // linhas
+            {
+                string[] values = Console.ReadLine().Split(' ');
+
+                for (int j = 0; j < n; j++) // colunas
+                {
+                    mat[i, j] = int.Parse(values[j]);
+                }
+            }
+
+            Console.WriteLine("Main diagonal");
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(mat[i,i] + " ");
+            }
+            Console.WriteLine();
+
+            int count = 0;
+            for(int i = 0; i < n; i++)
+            {
+                for(int j = 0; j < n; j++)
+                {
+                    if (mat[i,j] < 0)
+                    {
+                        count++;
+                    }
+                }
+            }
+            Console.WriteLine("Negative numbers: " + count);
         }
     }
 }
