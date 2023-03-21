@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using Testes.Entities;
+using Testes.Entities.Enums;
 
 namespace Testes
 {
@@ -8,40 +10,23 @@ namespace Testes
     {
         static void Main(string[] args)
         {
-            // ordem n = n linhas e n colunas
-            int n = int.Parse(Console.ReadLine());
-
-            int[,] mat = new int[n, n];
-
-            for (int i = 0; i < n; i++) // linhas
+            // Enumeraação e Composição
+            // conjunto de constantes // OrderStatus
+            Order order = new Order
             {
-                string[] values = Console.ReadLine().Split(' ');
+                Id = 1080,
+                Moment = DateTime.Now,
+                Status = OrderStatus.PendingPayement
+            };
+            Console.WriteLine(order);
 
-                for (int j = 0; j < n; j++) // colunas
-                {
-                    mat[i, j] = int.Parse(values[j]);
-                }
-            }
+            string txt = OrderStatus.PendingPayement.ToString();
 
-            Console.WriteLine("Main diagonal");
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write(mat[i,i] + " ");
-            }
-            Console.WriteLine();
+            OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
 
-            int count = 0;
-            for(int i = 0; i < n; i++)
-            {
-                for(int j = 0; j < n; j++)
-                {
-                    if (mat[i,j] < 0)
-                    {
-                        count++;
-                    }
-                }
-            }
-            Console.WriteLine("Negative numbers: " + count);
+            Console.WriteLine(os);
+
+            // Composição = objeto contenha outro
         }
     }
 }
