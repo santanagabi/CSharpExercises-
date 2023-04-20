@@ -19,3 +19,9 @@ To create a new migration, run the following command in the Package Manager Cons
 add-migration NameOfMigration
 ```
 Replace "NameOfMigration" with the name you want to give to the migration.
+
+### Updating the Database
+To update the database with the changes made to the data model, run the following command in the Package Manager Console:
+```csharp
+update-database
+```
