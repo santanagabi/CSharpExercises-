@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|c:\\users\\gabol\\onedrive\\\u00E1rea de trabalho\\estudos\\csharpexercises-\\apibookstore\\apibookstore\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|solutionrelative:apibookstore\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|c:\\users\\gabol\\onedrive\\\u00E1rea de trabalho\\estudos\\csharpexercises-\\apibookstore\\apibookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|solutionrelative:apibookstore\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|c:\\users\\gabol\\onedrive\\\u00E1rea de trabalho\\estudos\\csharpexercises-\\apibookstore\\apibookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|solutionrelative:apibookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|c:\\users\\gabol\\onedrive\\\u00E1rea de trabalho\\estudos\\csharpexercises-\\apibookstore\\apibookstore\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|solutionrelative:apibookstore\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFC74F75-A21B-4308-A338-669B4C22BFDC}|APIBookStore\\APIBookStore.csproj|c:\\users\\gabol\\onedrive\\\u00E1rea de trabalho\\estudos\\csharpexercises-\\apibookstore\\apibookstore\\models\\bookstoredatabasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Models\\Book.cs",
               "RelativeDocumentMoniker": "APIBookStore\\Models\\Book.cs",
@@ -48,14 +52,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksService.cs",
-              "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Services\\BooksService.cs",
-              "RelativeDocumentMoniker": "APIBookStore\\Services\\BooksService.cs",
-              "ToolTip": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Services\\BooksService.cs",
-              "RelativeToolTip": "APIBookStore\\Services\\BooksService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwC0AAABPAAAA",
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "APIBookStore\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "APIBookStore\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T00:29:49.713Z",
+              "WhenOpened": "2024-03-20T23:47:29.669Z",
               "EditorCaption": ""
             },
             {
@@ -68,20 +72,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "APIBookStore\\Services\\BooksService.cs",
+              "ToolTip": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Services\\BooksService.cs",
+              "RelativeToolTip": "APIBookStore\\Services\\BooksService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T00:29:49.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Program.cs",
               "RelativeDocumentMoniker": "APIBookStore\\Program.cs",
               "ToolTip": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Program.cs",
               "RelativeToolTip": "APIBookStore\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T00:56:43.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookStoreDatabaseSettings.cs",
               "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\Models\\BookStoreDatabaseSettings.cs",
               "RelativeDocumentMoniker": "APIBookStore\\Models\\BookStoreDatabaseSettings.cs",
@@ -89,12 +106,11 @@
               "RelativeToolTip": "APIBookStore\\Models\\BookStoreDatabaseSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T00:52:51.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T00:52:51.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gabol\\OneDrive\\\u00C1rea de Trabalho\\estudos\\CSharpExercises-\\APIBookStore\\APIBookStore\\appsettings.json",
               "RelativeDocumentMoniker": "APIBookStore\\appsettings.json",

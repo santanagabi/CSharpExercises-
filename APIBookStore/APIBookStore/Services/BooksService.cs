@@ -51,5 +51,10 @@ namespace APIBookStore.Services
         // Exclui um livro da coleção com base no I
         public async Task RemoveAsync(string id) =>
             await _booksCollection.DeleteOneAsync(x => x.Id == id);
+
+        internal async Task<List<Book>> GetAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
