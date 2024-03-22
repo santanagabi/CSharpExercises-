@@ -19,6 +19,8 @@ namespace APIBookStore.Models
         public string BookName { get; set; } = null!;
         public decimal Price { get; set; }
         public string Category { get; set; } = null!;
+
+        [BsonElement("Autor")]
         public string Author { get; set; } = null!;
     }
 }

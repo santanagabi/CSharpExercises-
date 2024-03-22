@@ -54,7 +54,8 @@ namespace APIBookStore.Services
 
         internal async Task<List<Book>> GetAsync()
         {
-            throw new NotImplementedException();
+            return await GetBooksAsync();
         }
+
     }
 }

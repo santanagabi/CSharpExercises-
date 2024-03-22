@@ -27,7 +27,7 @@ namespace APIBookStore.Controllers
             await _booksService.GetAsync(); // Retorna uma tarefa que quando concluida traz uma lista de livros
 
         // Recuperar os detalhes de livro com base no id
-        [HttpGet("{id:length:(24)}")]
+        [HttpGet("{id:length(24)}")]
         public async Task<ActionResult<Book>> Get(string id)
         {
             var book = await _booksService.GetAsync(id);
@@ -45,11 +45,11 @@ namespace APIBookStore.Controllers
             await _booksService.CreateAsync(newBook);
 
             // CreatedAtACtion é um método que ccria respostas com um código de status HTTP 201
-            return CreatedAtAction(nameof(Get), new { id = newBook.Id}, newBook);
+            return CreatedAtAction(nameof(Get), new { id = newBook.Id }, newBook);
         }
 
         // Atualizar
-        [HttpPut("{id:length:(24)}")]
+        [HttpPut("{id:length(24)}")]
         public async Task<IActionResult> Update(string id, Book updatedBook) // espera o Id do livro que será atualziado
         {
             // Busca o livro
@@ -60,6 +60,17 @@ namespace APIBookStore.Controllers
             await _booksService.UpdateAsync(id, updatedBook);
 
             return NoContent(); // Após sucesso -> HTTP 204 No Content
+        }
+
+        [HttpDelete("{id:length(24)}")]
+        public async Task<IActionResult> Delete (string id)
+        {
+            var book = await _booksService.GetAsync(id);
+
+            if (book == null)
+                return NotFound();
+            await _booksService.RemoveAsync(id);
+            return NoContent();
         }
     }
 }
